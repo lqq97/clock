@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS 重置 */
+body, div, p, h1, h2, h3, h4,
+ul, li, dl, dt, dd, ol, form, table, tr, td,
+span, label, input, select, option, a, img, i,
+em, strong, b {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #333333;
+}
+
+
+body {
+    font-family: "微软雅黑";
+    color: #000;
+
+    margin: 0 auto;
+    font-size: 0.3rem; /*body里默认使用最多的字体大小*/
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+}
+
+.clock{position: relative; width: 752px; height: 730px; background: url("../images/clock.jpg") no-repeat; margin: 0 auto;}
+.second{ position:absolute;left:  363px ;top: 132px; width: 31px; height: 478px; translate:rotate(0deg);}
+.minute{ position:absolute;left:365px; top: 164px; width: 27px; height: 410px; translate:rotate(0deg);}
+.hour{ position:absolute;left:  363px ;top: 225px; width: 31px; height: 292px; translate:rotate(0deg);}
+
+
+
